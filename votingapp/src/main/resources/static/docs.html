@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Voting App API Docs</title>
+
+    <!-- Redoc script -->
+    <script src="https://cdn.redoc.ly/redoc/latest/bundles/redoc.standalone.js"></script>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+</head>
+<body>
+
+<div id="redoc-container"></div>
+
+<script>
+    Redoc.init(
+    "/v3/api-docs",
+    {},
+    document.getElementById("redoc-container")
+);
+</script>
+
+</body>
+</html>
