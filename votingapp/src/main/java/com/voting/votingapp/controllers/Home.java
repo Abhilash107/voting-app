@@ -4,10 +4,8 @@ import org.springframework.web.bind.annotation.RestController;
 
     @RestController
     public class Home {
-
-        @GetMapping("/")
         public String home() {
-            return "Voting App Backend is Running 🚀";
+            return "Voting App Backend is Running";
         }
     }
 
